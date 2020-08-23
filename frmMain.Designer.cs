@@ -45,10 +45,10 @@
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(13, 13);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.label1.Location = new System.Drawing.Point(11, 11);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(589, 23);
+            this.label1.Size = new System.Drawing.Size(505, 47);
             this.label1.TabIndex = 0;
             this.label1.Text = "This easy tool let you \"convert\" a non xpub public key to any other key which is " +
     "supported.";
@@ -57,10 +57,10 @@
             // 
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(13, 55);
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.label2.Location = new System.Drawing.Point(10, 58);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(589, 62);
+            this.label2.Size = new System.Drawing.Size(505, 60);
             this.label2.TabIndex = 0;
             this.label2.Text = "There is no magic behind, cause you have to replace the first 4 bytes with the on" +
     "es of the one you want to convert to. You just have to take about that Base64 en" +
@@ -69,9 +69,9 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(13, 117);
+            this.label3.Location = new System.Drawing.Point(11, 130);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(143, 15);
+            this.label3.Size = new System.Drawing.Size(131, 13);
             this.label3.TabIndex = 1;
             this.label3.Text = "The public key to convert:";
             // 
@@ -79,17 +79,17 @@
             // 
             this.txtPublicKeyIn.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtPublicKeyIn.Location = new System.Drawing.Point(13, 146);
+            this.txtPublicKeyIn.Location = new System.Drawing.Point(11, 149);
             this.txtPublicKeyIn.Multiline = true;
             this.txtPublicKeyIn.Name = "txtPublicKeyIn";
-            this.txtPublicKeyIn.Size = new System.Drawing.Size(589, 81);
+            this.txtPublicKeyIn.Size = new System.Drawing.Size(505, 71);
             this.txtPublicKeyIn.TabIndex = 2;
             // 
             // bnConvert
             // 
-            this.bnConvert.Location = new System.Drawing.Point(12, 286);
+            this.bnConvert.Location = new System.Drawing.Point(10, 270);
             this.bnConvert.Name = "bnConvert";
-            this.bnConvert.Size = new System.Drawing.Size(75, 23);
+            this.bnConvert.Size = new System.Drawing.Size(64, 20);
             this.bnConvert.TabIndex = 3;
             this.bnConvert.Text = "Convert";
             this.bnConvert.UseVisualStyleBackColor = true;
@@ -98,9 +98,9 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 324);
+            this.label4.Location = new System.Drawing.Point(10, 303);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(117, 15);
+            this.label4.Size = new System.Drawing.Size(108, 13);
             this.label4.TabIndex = 1;
             this.label4.Text = "The converted result:";
             // 
@@ -108,10 +108,10 @@
             // 
             this.txtConverted.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtConverted.Location = new System.Drawing.Point(12, 353);
+            this.txtConverted.Location = new System.Drawing.Point(10, 328);
             this.txtConverted.Multiline = true;
             this.txtConverted.Name = "txtConverted";
-            this.txtConverted.Size = new System.Drawing.Size(589, 81);
+            this.txtConverted.Size = new System.Drawing.Size(505, 71);
             this.txtConverted.TabIndex = 2;
             // 
             // llLink
@@ -119,9 +119,9 @@
             this.llLink.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.llLink.AutoSize = true;
-            this.llLink.Location = new System.Drawing.Point(174, 533);
+            this.llLink.Location = new System.Drawing.Point(149, 462);
             this.llLink.Name = "llLink";
-            this.llLink.Size = new System.Drawing.Size(295, 15);
+            this.llLink.Size = new System.Drawing.Size(266, 13);
             this.llLink.TabIndex = 4;
             this.llLink.TabStop = true;
             this.llLink.Text = "powered by PREMIUM BLACK (https://premium.black)";
@@ -131,17 +131,17 @@
             // 
             this.cmbTypes.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbTypes.FormattingEnabled = true;
-            this.cmbTypes.Location = new System.Drawing.Point(85, 248);
+            this.cmbTypes.Location = new System.Drawing.Point(73, 237);
             this.cmbTypes.Name = "cmbTypes";
-            this.cmbTypes.Size = new System.Drawing.Size(161, 23);
+            this.cmbTypes.Size = new System.Drawing.Size(139, 21);
             this.cmbTypes.TabIndex = 5;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(13, 251);
+            this.label5.Location = new System.Drawing.Point(11, 240);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(66, 15);
+            this.label5.Size = new System.Drawing.Size(59, 13);
             this.label5.TabIndex = 1;
             this.label5.Text = "Convert to:";
             // 
@@ -149,18 +149,18 @@
             // 
             this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label6.Location = new System.Drawing.Point(12, 493);
+            this.label6.Location = new System.Drawing.Point(10, 427);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(590, 24);
+            this.label6.Size = new System.Drawing.Size(506, 21);
             this.label6.TabIndex = 1;
             this.label6.Text = "Huge thanks to NBitcoin (https://github.com/MetacoSA/NBitcoin)";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // frmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(614, 557);
+            this.ClientSize = new System.Drawing.Size(526, 483);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.cmbTypes);
             this.Controls.Add(this.llLink);
